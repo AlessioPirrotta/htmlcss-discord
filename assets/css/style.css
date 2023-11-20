@@ -79,9 +79,6 @@ span{
 border-radius: 100px;
 height: 40px;
 width: 8%;
-
-
-
 }
 
 section.scrittagrande{
@@ -113,7 +110,7 @@ p{
     line-height: 25px;
     }
 
-#button2{
+.button2{
     height: 45px;
     width: 15%;
     font-size: 16px;
@@ -135,7 +132,7 @@ section.twobuttons{
     flex-direction: row;
     justify-content: center;
     margin: 0 10% 0 10%;
-    gap: 20px;
+    gap: 30px;
 }
 
 button{
@@ -177,75 +174,121 @@ figure.righe{
     height: 500px;
     display: flex;
     justify-content: center;
-    padding-right: %;
     align-items: center;
+    padding-bottom: 30px;
     
 }
 
 
 figure.righe img{
-    width: 80%
-    
+    width: 80% 
 }
     
 
 
 section.centro{
-        height: 500px;
+    height: 500px;
     display: flex;
     width: 80%;
     margin: 0 10% 0 10%;
+    justify-content:;
 }
     
-
-
-
-
-
 aside{
-        width: 40%;
+    width: 40%;
     height: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-aside{
-        width: 40%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
-    padding-bottom: 40px ;
+    padding-bottom: 50px ;
 }
 
 .titolo{
-    background-color: sandybrown;
-    height: 50px;
-    width: 40%;
+    
+    height: 250px;
+    width: 60%;
+    
+}
+
+h1#unluogo{
+    width: 100%;
+    text-align:start;
+    color: black;
+
 }
 
 figure.riga4{
-        width: 100%;
+    width: 100%;
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-
 }
 
 .testo{
-    background-color:sandybrown;
-    width:40%;
-    height: 200px;
+    
+    width:60%;
+    height:120px;
+    text-align: start;
+    color: black;
 }
 
+#dovetrovarsi{
+    text-align: start;
+    width: 100%;
+    color: black;
+    
+}
+
+aside.colonna{
+padding-bottom: 180px;
+}
+
+aside.colonna :first-child{
+height: 100px;
+
+}
+
+p.testo#dispari{
+width: 60%;
+text-align: start;
+}
+
+#dapochi{
+    width: 100%;
+    text-align: start;
+    color: black;
+}
+
+section.centrodispari.ultima{
+    border: 1px solid red
+}
+
+
+div.titolo#ultimariga{
+    height: 100px;
+}
+
+p.testo#pari{
+width: 70%;
+text-align: start;
+padding-left: 25px ;
+}
+
+aside#ultima{
+    padding-bottom: 200px;
+}
+
+figure.riga4{
+padding-top: 50px;
+height: 900px;
+}
+
+
 div.testosopra{
-        width:60%;
+    width:60%;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -254,7 +297,7 @@ div.testosopra{
 }
 
 div.testosotto{
-        width:60%;
+    width:60%;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -264,21 +307,27 @@ div.testosotto{
 }
 
 .sopra1{
-    background-color:sandybrown;
+    color: black;
     width: 90%;
-    height: 40px;
+    height: 60px;
 }
 
 .sotto1{
-    background-color:sandybrown;
+    color: black;
     width: 90%;
     height: 50px;
+    padding-left: 20px;
 }
 
 .sopra2{
-    background-color:sandybrown;
-    width: 30%;
+    width: 80%;
     height: 40px;
+    text-align: center
+}
+
+#buttonazz{
+    background-color: #8ea1e1;
+    color: white;
 }
 
 .sotto2{
@@ -330,7 +379,6 @@ section.iltuoposto div{
 
 .iltuoposto span{
     width: 100px;
-    
 }
 
 hr{
@@ -342,6 +390,11 @@ hr{
 #img4{
     width: 60% ;
 }
+
+
+
+
+
 
 
 
