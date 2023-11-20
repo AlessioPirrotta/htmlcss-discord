@@ -303,6 +303,11 @@ div.testosotto{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position:center top ;
+
 
 }
 
@@ -345,7 +350,7 @@ display: flex;
 }
 
 section.iltuoposto aside {
-        width: 20%;
+    width: 20%;
     height: 400px;
     display: flex;
     margin: 0 10% 0 10%;
@@ -357,18 +362,24 @@ section.iltuoposto aside {
 }
 
 .a{
-    width: 80%;
+    width: 200%;
     height: 60px;
+    color:#7289da ;
 }
 
 .b{
    height: 60px;
    width: 50%;
+   display: inline-block;
+}
+
+#ita{
+    height: 15px;
 }
 
 section.iltuoposto div{
-        width: 10%;
-    height: 400px;
+    width: 10%;
+    height: 500px;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -383,18 +394,60 @@ section.iltuoposto div{
 
 hr{
   margin:  30px 10% 30px 10%;
-  border: 1px solid sandybrown ;
+  border: 1px solid #7289da ;
 }
 
 
 #img4{
-    width: 60% ;
+width: 60% ;
 }
 
 
+span.foot{
+text-align:start;
+
+}
 
 
+#fine{
+    width: 100px;
+    padding-top: 20px;
+}
 
+#twitter{
+    width: 20px;
+}
+#insta{
+    width: 20px;
+}
 
+#face{
+    width: 20px;
+}
 
+#you{
+    width: 20px;
+}
+
+figure.social{
+    display: flex;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+#blu{
+    color: #7289da;
+}
+
+div.fcontainer{
+    background-color: #23272A;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+button#registrati{
+    background-color: #8ea1e1;
+    color: white;
+}
 
